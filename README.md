@@ -3,9 +3,9 @@
 
 A leiningen plugin to launch a vimclojure nailgun server.
 This is a fork of the work started by [brandow](http://github.com/brandonw).  
-You can find the original version [lein-nailgun](http://github.com/brandonw/lein-nailgun).
+You can find the original version at [lein-nailgun](http://github.com/brandonw/lein-nailgun).
 
-## Works with latest vimclojure
+## Works with the latest vimclojure
 
 This release is compatible with clojure 1.2 and vimclojure 2.2.0.
 
@@ -13,7 +13,7 @@ This release is compatible with clojure 1.2 and vimclojure 2.2.0.
 
 Make sure `:dev-dependencies` in your project.clj contains the following:
 
-	:dev-dependencies [[org.clojars.autre/lein-vimclojure "1.0.0"]]
+	[org.clojars.autre/lein-vimclojure "1.0.0"]
 
 
 ## Running
@@ -21,5 +21,5 @@ Make sure `:dev-dependencies` in your project.clj contains the following:
 	$ lein deps
 	$ lein vimclojure &
 
-Then from vi with an open clojure file you can ``\sr'', ``\et'', etc.
+Then from vi with an open clojure file you can `\sr`, `\et`, etc.
 
